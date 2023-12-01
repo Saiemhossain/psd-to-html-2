@@ -1,0 +1,296 @@
+body{
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: Myriad Pro;
+  margin: 0;
+}
+.container{
+  margin: 0 auto;
+  max-width: 960px;
+  width: 96%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.header_area{
+  width: 100%;
+  clear: both;
+}
+.inner_top_header{
+  overflow: hidden;
+}
+#top_header_area{
+   background: #9b9a9b;
+   padding: 20px 0;
+   width: 100%;
+}
+
+
+#main_header_area{
+  background: #9b9a95;
+ clear: both;
+  width: 100%;
+}
+#main_header_area p{
+  color: #e0e0df;
+  font-size: 18px;
+  
+}
+.inner_header{
+  padding-top: 20px;
+  overflow: hidden;
+}
+#main_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#main_menu ul li{
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+}
+#main_menu ul li a{
+ display: block;
+ text-decoration: none;
+ color: #fff;
+ padding: 5px;
+}
+h1{
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+p{
+  color: #fff;
+}
+.button{
+  background:#4ecb8c;
+  text-decoration: none;
+  padding: 4px ,2px;
+  margin-top: 4px;
+}
+#hero_area{
+  background:#fff;
+  padding: 0;
+  padding: 0;
+  width: 100%;
+}
+h2{
+  margin-top: 3px;
+  font-size: 48px;
+  line-height: 1.1em;
+  font-family: Myriad Pro;
+  text-align: center;
+}
+#hero_area h3,p{
+  color: #000;
+}
+.inner_hero{
+  display: flex;
+  padding: 20px;
+}
+#story_area{
+  background: #e9ebea;
+  margin: 0;
+  padding: 0;
+}
+#work_area{
+  background: #e9ebea;
+  padding: 20px 0;
+  width: 100%;
+}
+.inner_work{
+  overflow: hidden;
+}
+.child_service{
+  width: 100%;
+  overflow: hidden;
+ margin-bottom: 15px;
+}
+.child_service , .service_image{
+  width: 25%;
+  float: left;
+}
+.child_service, .service_text{
+  width: 75%;
+  float: right;
+}
+.child_service, .service_text h3{
+  font-size: 48px;
+  margin-top: 0;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+}
+.child_service, .service_text p{
+font-size: 16px;
+margin-top: 0;
+line-height: 1.4em;
+}
+.service_text p{
+  color: #525352;
+}
+ 
+ #work_area a{
+   color: #525352;
+   border: 1px solid#525352;
+   text-decoration: none;
+ }
+
+ #clients_area{
+  background: #ffffff;
+  padding: 15px 0;
+  width: 100%;
+ }
+ .inner_clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .content-section{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+  .content-section p{
+    font-size: 20px;
+    font-family: Myriad Pro;
+    color: #444444;
+  }
+  .content-section p, span{
+    font-size: 16px;
+    font-family: Myriad Pro;
+    color: #727272;
+  }
+  .content-section h4{
+    font-size: 16px;
+    font-family: Myriad Pro;
+    color: #000000;
+  }
+ .img-work{
+  border-radius: 50%;
+  height: 8rem;
+  float: right;
+ }
+
+ #skill_area{
+  background: #353535;
+  padding: 20px 0;
+  width: 100%;
+ }
+ #skill_area h1{
+  
+ font-size: 48px;
+ font-family: normal;
+ color: #ffffff;
+ }
+ .inner_skill p{
+  color: #ffffff;
+ }
+  #skill_area a{
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid#fff;
+  }
+  #blog_area{
+    background: #ffffff;
+    padding: 20px 0;
+    width: 100%;
+  }
+   #blog_area h1{
+    color:#000000;
+    font-size: 48px;
+    text-align: center;
+   }
+.inner_blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  .blog-section{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+  .blog-section p{
+    font-size: 16.01px;
+    color: #818181;
+  }
+  #project_area{
+    background: #36c36e;
+    width: 100%;
+    padding: 20px 0;
+  }
+    #project_area h2{
+      font-size: 24.2px;
+      text-align: left;
+      color: #ffffff;
+    }
+      #project_area p{
+        color: #ffffff;
+        font-size: 16.02px;
+      }
+      .start{
+        text-decoration: none;
+        float: right;
+      }
+      button{
+        background: #36c36e;
+        color: #fff;
+      }
+ 
+      
+
+#footer_area{
+ background: #232323;
+padding: 20px 0;
+ width: 100%;
+}
+.img{
+  width: 100%;
+  float: left;
+}
+.inner_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .footer-section{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+  .footer-section h5{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+   .footer-section p{
+    color: #ffffff;
+    font-size: 14px;
+
+   }
+
+       
+      
+
+
+
+
+
+
